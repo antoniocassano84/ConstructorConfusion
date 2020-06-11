@@ -1,6 +1,5 @@
 package com.apress.prospring5.ch3;
 
-import com.apress.prospring5.ch3.xml.ConstructorConfusion;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
 public class ConstructorConfusionDemo {

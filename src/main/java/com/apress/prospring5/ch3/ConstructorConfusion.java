@@ -10,7 +10,7 @@ public class ConstructorConfusion {
 
   public ConstructorConfusion(int someValue) {
     System.out.println("ConstructorConfusion(int) called");
-    this.someValue = "Number + 1: " + Integer.toString(someValue + 1);
+    this.someValue = "Number + 1: " + (someValue + 1);
   }
 
   @Override
