@@ -1,7 +1,7 @@
-package com.apress.prospring5.ch3.xml;
+package com.apress.prospring5.ch3;
 
 public class ConstructorConfusion {
-  private String someValue;
+  private final String someValue;
 
   public ConstructorConfusion(String someValue) {
     System.out.println("ConstructorConfusion(String) called");
